@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tenutre — Suplementos deportivos y de bienestar premium. Proteínas, vitaminas, quemadores, pre-entrenos y más. Nutre tu cuerpo, transforma tu rendimiento." />
+  <meta name="keywords" content="suplementos deportivos, proteínas, vitaminas, pre-entreno, quemadores, BCAA, bienestar, rendimiento físico, Tenutre" />
+  <meta name="author" content="Tenutre" />
+  <meta property="og:title" content="Tenutre — Nutre tu cuerpo, transforma tu rendimiento" />
+  <meta property="og:description" content="Suplementos deportivos y de bienestar premium para personas que buscan mejorar su salud y rendimiento físico." />
+  <meta property="og:type" content="website" />
+  <title>Tenutre — Nutre tu cuerpo, transforma tu rendimiento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+
+        <!-- Logo -->
+        <a href="#inicio" class="navbar-logo" aria-label="Tenutre - Inicio">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+              <path d="M8 12c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4"/>
+              <path d="M12 8v8M8 12h8"/>
+            </svg>
+          </div>
+          <span class="logo-text">Ten<span>utre</span></span>
+        </a>
+
+        <!-- Nav Links -->
+        <ul class="nav-links" role="list">
+          <li><a href="#servicios" class="nav-link" id="nav-servicios">Productos</a></li>
+          <li><a href="#resultados" class="nav-link" id="nav-resultados">Resultados</a></li>
+          <li><a href="#testimonios" class="nav-link" id="nav-testimonios">Testimonios</a></li>
+          <li><a href="#nosotros" class="nav-link" id="nav-nosotros">Nosotros</a></li>
+        </ul>
+
+        <!-- CTA -->
+        <div class="nav-cta">
+          <a href="#contacto" class="btn-secondary" id="nav-btn-contacto" style="padding: 10px 22px; font-size: 0.88rem;">Contacto</a>
+          <a href="#servicios" class="btn-primary" id="nav-btn-tienda" style="padding: 10px 22px; font-size: 0.88rem;">
+            Ver Productos
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Menú móvil">
+    <ul role="list" style="display: flex; flex-direction: column; align-items: center; gap: 32px;">
+      <li><a href="#servicios" class="nav-link" id="mobile-nav-servicios">Productos</a></li>
+      <li><a href="#resultados" class="nav-link" id="mobile-nav-resultados">Resultados</a></li>
+      <li><a href="#testimonios" class="nav-link" id="mobile-nav-testimonios">Testimonios</a></li>
+      <li><a href="#nosotros" class="nav-link" id="mobile-nav-nosotros">Nosotros</a></li>
+    </ul>
+    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 16px; width: 240px;">
+      <a href="#contacto" class="btn-secondary" id="mobile-btn-contacto" style="justify-content: center;">Contacto</a>
+      <a href="#servicios" class="btn-primary" id="mobile-btn-tienda" style="justify-content: center;">Ver Productos</a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero" id="inicio">
+    <!-- Background -->
+    <div class="hero-bg">
+      <div class="hero-bg-gradient"></div>
+      <div class="hero-grid"></div>
+      <div class="particles-container" id="particles-hero"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            🌿 Suplementos Premium Certificados
+          </div>
+
+          <h1 class="display-title hero-title">
+            Nutre tu cuerpo,<br />
+            <span class="gradient-text">transforma tu</span><br />
+            rendimiento
+          </h1>
+
+          <p class="hero-subtitle">
+            Ofrecemos una amplia variedad de suplementos deportivos y de bienestar — proteínas, vitaminas, quemadores, pre-entrenos y más — para personas que buscan mejorar su salud y calidad de vida.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#servicios" class="btn-primary" id="hero-btn-explorar">
+              Explorar Productos
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#nosotros" class="btn-secondary" id="hero-btn-conocer">
+              Conocer Más
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-target="10000" id="stat-clientes">0</div>
+              <div class="hero-stat-label">Clientes Activos</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-target="200" id="stat-productos">0</div>
+              <div class="hero-stat-label">Productos</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value" data-target="5" id="stat-anos">0</div>
+              <div class="hero-stat-label">Años de Experiencia</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual -->
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+            <!-- Orbit rings -->
+            <div class="orbit-ring orbit-ring-1">
+              <div class="orbit-dot"></div>
+            </div>
+            <div class="orbit-ring orbit-ring-2"></div>
+
+            <!-- Main orb -->
+            <div class="hero-orb">
+              <div class="hero-product-visual">
+                <!-- Supplement bottle SVG -->
+                <svg class="bottle-svg" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Cap -->
+                  <rect x="38" y="10" width="44" height="22" rx="8" fill="#1E6B3C" opacity="0.9"/>
+                  <rect x="42" y="6" width="36" height="10" rx="5" fill="#AC9058"/>
+                  <!-- Neck -->
+                  <rect x="44" y="30" width="32" height="18" rx="4" fill="#1a5f35"/>
+                  <!-- Body -->
+                  <rect x="22" y="46" width="76" height="130" rx="16" fill="url(#bottleGrad)"/>
+                  <!-- Label area -->
+                  <rect x="28" y="70" width="64" height="80" rx="10" fill="rgba(0,0,0,0.3)"/>
+                  <!-- Label text lines -->
+                  <rect x="36" y="82" width="48" height="6" rx="3" fill="#1E6B3C" opacity="0.8"/>
+                  <rect x="40" y="94" width="40" height="4" rx="2" fill="white" opacity="0.6"/>
+                  <rect x="36" y="104" width="48" height="3" rx="1.5" fill="white" opacity="0.3"/>
+                  <rect x="36" y="112" width="48" height="3" rx="1.5" fill="white" opacity="0.3"/>
+                  <!-- T logo on label -->
+                  <text x="60" y="138" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="800" font-size="18" fill="#AC9058" opacity="0.9">T</text>
+                  <!-- Shine -->
+                  <rect x="28" y="50" width="12" height="120" rx="6" fill="rgba(255,255,255,0.06)"/>
+                  <!-- Bottom highlight -->
+                  <ellipse cx="60" cy="172" rx="30" ry="6" fill="rgba(30,107,60,0.3)"/>
+                  <defs>
+                    <linearGradient id="bottleGrad" x1="22" y1="46" x2="98" y2="176" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#1E6B3C"/>
+                      <stop offset="50%" stop-color="#15502c"/>
+                      <stop offset="100%" stop-color="#0f4022"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Floating badges -->
+            <div class="hero-float-badge hero-float-badge-1">
+              <div class="badge-icon">🏆</div>
+              <div class="badge-info">
+                <span class="badge-value">Calidad Premium</span>
+                <span class="badge-label">Certificado GMP</span>
+              </div>
+            </div>
+
+            <div class="hero-float-badge hero-float-badge-2">
+              <div class="badge-icon">⚡</div>
+              <div class="badge-info">
+                <span class="badge-value">+200 Productos</span>
+                <span class="badge-label">En stock</span>
+              </div>
+            </div>
+
+            <div class="hero-float-badge hero-float-badge-3">
+              <div class="badge-icon">🌿</div>
+              <div class="badge-info">
+                <span class="badge-value">100% Natural</span>
+                <span class="badge-label">Sin aditivos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOCIAL PROOF
+       ============================================================ -->
+  <section class="social-proof" aria-label="Métricas de confianza">
+    <div class="container">
+      <div class="social-proof-inner">
+        <p class="social-proof-label">Confiado por miles de atletas y personas activas</p>
+        <div class="metrics-grid">
+          <div class="metric-item reveal">
+            <div class="metric-value" data-target="10000" id="metric-clientes">10K+</div>
+            <div class="metric-label">Clientes Satisfechos</div>
+          </div>
+          <div class="metric-item reveal reveal-delay-1">
+            <div class="metric-value" data-target="200" id="metric-productos">200+</div>
+            <div class="metric-label">Productos Disponibles</div>
+          </div>
+          <div class="metric-item reveal reveal-delay-2">
+            <div class="metric-value">99%</div>
+            <div class="metric-label">Satisfacción del Cliente</div>
+          </div>
+          <div class="metric-item reveal reveal-delay-3">
+            <div class="metric-value">5★</div>
+            <div class="metric-label">Valoración Promedio</div>
+          </div>
+          <div class="metric-item reveal reveal-delay-4">
+            <div class="metric-value">48h</div>
+            <div class="metric-label">Envío Express</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICIOS / PRODUCTOS (FLIP CARDS)
+       ============================================================ -->
+  <section class="section services" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Nuestros Productos</span>
+        <h2 class="section-title" id="servicios-title">
+          Todo lo que necesitas para<br />
+          <span class="gradient-text">alcanzar tu máximo nivel</span>
+        </h2>
+        <div class="section-divider"></div>
+        <p class="body-large" style="color: var(--text-tertiary); margin-top: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">
+          Descubre nuestra línea completa de suplementos formulados con ingredientes de la más alta calidad.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Card 1: Proteínas -->
+        <div class="service-card-flip reveal reveal-delay-1" id="card-proteinas" role="button" aria-label="Ver detalles de Proteínas" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #0f2d1a 0%, #1E6B3C 50%, #0f4022 100%);">
+                  <span class="service-img-icon">💪</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">Proteínas</h3>
+                  <span class="service-category">Whey · Caseína · Plant-Based</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">Proteínas Premium</h3>
+              <p class="service-description">Maximiza tu ganancia muscular con nuestras proteínas de alta biodisponibilidad. Whey isolate, concentrado, caseína y opciones veganas para cada objetivo.</p>
+              <div class="service-features">
+                <span class="feature-tag">Whey Isolate</span>
+                <span class="feature-tag">Caseína</span>
+                <span class="feature-tag">Plant-Based</span>
+                <span class="feature-tag">25g Proteína</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-proteinas-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Vitaminas -->
+        <div class="service-card-flip reveal reveal-delay-2" id="card-vitaminas" role="button" aria-label="Ver detalles de Vitaminas" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #1a1a0a 0%, #3d6b1a 50%, #2d4a10 100%);">
+                  <span class="service-img-icon">🌿</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">Vitaminas & Minerales</h3>
+                  <span class="service-category">Salud · Inmunidad · Bienestar</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">Vitaminas & Minerales</h3>
+              <p class="service-description">Refuerza tu sistema inmune y optimiza tu salud general con nuestra línea completa de vitaminas, minerales y complejos multivitamínicos de alta absorción.</p>
+              <div class="service-features">
+                <span class="feature-tag">Vitamina C</span>
+                <span class="feature-tag">Vitamina D3</span>
+                <span class="feature-tag">Zinc</span>
+                <span class="feature-tag">Magnesio</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-vitaminas-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Quemadores -->
+        <div class="service-card-flip reveal reveal-delay-3" id="card-quemadores" role="button" aria-label="Ver detalles de Quemadores" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #1a0a00 0%, #6b3a1a 50%, #4a2010 100%);">
+                  <span class="service-img-icon">🔥</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">Quemadores de Grasa</h3>
+                  <span class="service-category">Termogénicos · Fat Burners</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">Quemadores de Grasa</h3>
+              <p class="service-description">Acelera tu metabolismo y potencia la quema de grasa con nuestros termogénicos de última generación. Formulados para maximizar resultados sin comprometer tu energía.</p>
+              <div class="service-features">
+                <span class="feature-tag">Termogénico</span>
+                <span class="feature-tag">L-Carnitina</span>
+                <span class="feature-tag">CLA</span>
+                <span class="feature-tag">Green Tea</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-quemadores-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Pre-Entreno -->
+        <div class="service-card-flip reveal reveal-delay-1" id="card-preentrenamiento" role="button" aria-label="Ver detalles de Pre-Entreno" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #0a0a1a 0%, #1a1a6b 50%, #10104a 100%);">
+                  <span class="service-img-icon">⚡</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">Pre-Entreno</h3>
+                  <span class="service-category">Energía · Fuerza · Enfoque</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">Pre-Entreno</h3>
+              <p class="service-description">Lleva tu entrenamiento al siguiente nivel con nuestros pre-entrenos de alto rendimiento. Más energía, mejor enfoque y mayor resistencia desde el primer rep.</p>
+              <div class="service-features">
+                <span class="feature-tag">Cafeína</span>
+                <span class="feature-tag">Beta-Alanina</span>
+                <span class="feature-tag">Creatina</span>
+                <span class="feature-tag">Citrulina</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-preentrenamiento-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: BCAAs -->
+        <div class="service-card-flip reveal reveal-delay-2" id="card-bcaa" role="button" aria-label="Ver detalles de BCAAs" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #0a1a1a 0%, #1a5a6b 50%, #104040 100%);">
+                  <span class="service-img-icon">🔬</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">BCAAs & Aminoácidos</h3>
+                  <span class="service-category">Recuperación · Anti-Catabólico</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">BCAAs & Aminoácidos</h3>
+              <p class="service-description">Protege tu músculo y acelera la recuperación con nuestros aminoácidos esenciales. Fórmulas 2:1:1 y 4:1:1 para máxima síntesis proteica y recuperación óptima.</p>
+              <div class="service-features">
+                <span class="feature-tag">BCAA 2:1:1</span>
+                <span class="feature-tag">Glutamina</span>
+                <span class="feature-tag">EAA</span>
+                <span class="feature-tag">Recuperación</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-bcaa-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Wellness Natural -->
+        <div class="service-card-flip reveal reveal-delay-3" id="card-wellness" role="button" aria-label="Ver detalles de Wellness Natural" tabindex="0">
+          <div class="service-card-inner">
+            <div class="service-card-front">
+              <div class="service-image-container">
+                <div class="service-img-placeholder" style="background: linear-gradient(135deg, #0a1a0a 0%, #2d6b2d 50%, #1a4a1a 100%);">
+                  <span class="service-img-icon">🌱</span>
+                </div>
+                <div class="service-overlay">
+                  <h3 class="service-title-front">Wellness Natural</h3>
+                  <span class="service-category">Orgánico · Holístico · Natural</span>
+                </div>
+              </div>
+            </div>
+            <div class="service-card-back">
+              <h3 class="service-title-back">Wellness Natural</h3>
+              <p class="service-description">Cuida tu bienestar integral con nuestra línea de productos naturales y orgánicos. Adaptógenos, superfoods y suplementos holísticos para una vida equilibrada.</p>
+              <div class="service-features">
+                <span class="feature-tag">Ashwagandha</span>
+                <span class="feature-tag">Colágeno</span>
+                <span class="feature-tag">Omega-3</span>
+                <span class="feature-tag">Probióticos</span>
+              </div>
+              <a href="#contacto" class="service-cta-link" id="card-wellness-cta">
+                Ver productos →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SHOWCASE / RESULTADOS
+       ============================================================ -->
+  <section class="section showcase" id="resultados" aria-labelledby="resultados-title">
+    <div class="container">
+      <div class="showcase-inner">
+
+        <!-- Content -->
+        <div class="showcase-content reveal">
+          <span class="section-label">Resultados Reales</span>
+          <h2 class="section-title" id="resultados-title">
+            Números que<br />
+            <span class="gradient-text">hablan por sí solos</span>
+          </h2>
+          <div class="section-divider" style="margin: 20px 0;"></div>
+          <p class="body-text" style="color: var(--text-tertiary); margin-bottom: 16px;">
+            En Tenutre no solo vendemos suplementos — construimos comunidades de personas comprometidas con su salud y rendimiento. Nuestros resultados son el reflejo del compromiso de miles de atletas y personas activas que confían en nosotros cada día.
+          </p>
+          <p class="body-text" style="color: var(--text-tertiary);">
+            Cada producto pasa por rigurosos controles de calidad para garantizar pureza, potencia y efectividad.
+          </p>
+
+          <div class="showcase-stats">
+            <div class="stat-card reveal reveal-delay-1">
+              <div class="stat-number" data-target="10000" id="showcase-stat-1">10K+</div>
+              <div class="stat-desc">Clientes activos en toda Latinoamérica</div>
+            </div>
+            <div class="stat-card reveal reveal-delay-2">
+              <div class="stat-number" data-target="200" id="showcase-stat-2">200+</div>
+              <div class="stat-desc">Productos en catálogo activo</div>
+            </div>
+            <div class="stat-card reveal reveal-delay-3">
+              <div class="stat-number">98%</div>
+              <div class="stat-desc">Tasa de recompra de clientes</div>
+            </div>
+            <div class="stat-card reveal reveal-delay-4">
+              <div class="stat-number">5★</div>
+              <div class="stat-desc">Valoración promedio en reseñas</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Dashboard -->
+        <div class="showcase-visual reveal reveal-delay-2">
+          <div class="showcase-card-main glass-card">
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+              <div style="width: 10px; height: 10px; background: var(--primary-400); border-radius: 50%; box-shadow: 0 0 8px rgba(30,107,60,0.8);"></div>
+              <span style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--text-secondary);">Panel de Rendimiento Tenutre</span>
+            </div>
+            <p style="font-size: 0.78rem; color: var(--text-quaternary); margin-bottom: 28px;">Métricas de calidad y satisfacción</p>
+
+            <div class="progress-list">
+              <div class="progress-item">
+                <div class="progress-header">
+                  <span class="progress-label">Satisfacción del cliente</span>
+                  <span class="progress-value">99%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-width="99" id="progress-1"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header">
+                  <span class="progress-label">Pureza de ingredientes</span>
+                  <span class="progress-value">100%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-width="100" id="progress-2"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header">
+                  <span class="progress-label">Tasa de recompra</span>
+                  <span class="progress-value">98%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-width="98" id="progress-3"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header">
+                  <span class="progress-label">Envíos a tiempo</span>
+                  <span class="progress-value">96%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-width="96" id="progress-4"></div>
+                </div>
+              </div>
+              <div class="progress-item">
+                <div class="progress-header">
+                  <span class="progress-label">Productos certificados</span>
+                  <span class="progress-value">100%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-bar-fill" data-width="100" id="progress-5"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom badges -->
+            <div style="display: flex; gap: 12px; margin-top: 28px; flex-wrap: wrap;">
+              <span style="background: rgba(30,107,60,0.12); border: 1px solid rgba(30,107,60,0.25); color: var(--primary-300); font-size: 0.72rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; font-family: 'Montserrat', sans-serif;">✓ GMP Certificado</span>
+              <span style="background: rgba(172,144,88,0.1); border: 1px solid rgba(172,144,88,0.25); color: var(--gold-400); font-size: 0.72rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; font-family: 'Montserrat', sans-serif;">✓ ISO 9001</span>
+              <span style="background: rgba(30,107,60,0.12); border: 1px solid rgba(30,107,60,0.25); color: var(--primary-300); font-size: 0.72rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; font-family: 'Montserrat', sans-serif;">✓ Lab Tested</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIOS
+       ============================================================ -->
+  <section class="section testimonials" id="testimonios" aria-labelledby="testimonios-title">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Testimonios</span>
+        <h2 class="section-title" id="testimonios-title">
+          Lo que dicen nuestros<br />
+          <span class="gradient-text">clientes</span>
+        </h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card glass-card reveal reveal-delay-1">
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          </div>
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">
+            Llevo 6 meses usando la proteína whey de Tenutre y los resultados son increíbles. Gané 4 kg de músculo limpio y mi recuperación mejoró notablemente. La calidad es superior a otras marcas que había probado.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">💪</div>
+            <div>
+              <div class="author-name">Carlos Mendoza</div>
+              <div class="author-role">Atleta de Crossfit · Bogotá</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal reveal-delay-2">
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          </div>
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">
+            Los quemadores de grasa de Tenutre me ayudaron a perder 8 kg en 3 meses sin perder masa muscular. El servicio al cliente es excelente y los envíos siempre llegan a tiempo. ¡Totalmente recomendados!
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">🏃</div>
+            <div>
+              <div class="author-name">Valentina Ríos</div>
+              <div class="author-role">Runner Amateur · Medellín</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal reveal-delay-3">
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          </div>
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">
+            Como entrenador personal, recomiendo Tenutre a todos mis clientes. La transparencia en los ingredientes, la calidad certificada y los resultados consistentes los hacen la mejor opción del mercado.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">🏋️</div>
+            <div>
+              <div class="author-name">Andrés Torres</div>
+              <div class="author-role">Entrenador Personal Certificado · Cali</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE NOSOTROS
+       ============================================================ -->
+  <section class="section about" id="nosotros" aria-labelledby="nosotros-title">
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Visual -->
+        <div class="about-visual reveal">
+          <div class="about-circle">
+            <div class="about-ring about-ring-1"></div>
+            <div class="about-ring about-ring-2"></div>
+            <div class="about-circle-inner">🌿</div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="reveal reveal-delay-2">
+          <span class="section-label">Nuestra Historia</span>
+          <h2 class="section-title" id="nosotros-title">
+            Más que suplementos,<br />
+            <span class="gradient-text">un estilo de vida</span>
+          </h2>
+          <div class="section-divider" style="margin: 20px 0;"></div>
+
+          <p class="body-text" style="color: var(--text-tertiary); margin-bottom: 16px;">
+            Tenutre nació de la pasión por el deporte y el bienestar. Fundada por atletas para atletas, nuestra misión es democratizar el acceso a suplementos de calidad premium a precios justos.
+          </p>
+          <p class="body-text" style="color: var(--text-tertiary); margin-bottom: 32px;">
+            Cada producto en nuestro catálogo ha sido cuidadosamente seleccionado y probado para garantizar que cumple con los más altos estándares de pureza, potencia y efectividad. Porque tu cuerpo merece lo mejor.
+          </p>
+
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">🏆</div>
+              <div>
+                <div class="value-title">Calidad Sin Compromiso</div>
+                <div class="value-desc">Todos nuestros productos son certificados GMP e ISO 9001, garantizando la más alta pureza y potencia.</div>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🔬</div>
+              <div>
+                <div class="value-title">Respaldo Científico</div>
+                <div class="value-desc">Formulaciones basadas en evidencia científica, con ingredientes en dosis clínicamente efectivas.</div>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🌿</div>
+              <div>
+                <div class="value-title">Ingredientes Naturales</div>
+                <div class="value-desc">Priorizamos ingredientes naturales y de origen responsable, sin colorantes artificiales ni rellenos innecesarios.</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 40px;">
+            <a href="#contacto" class="btn-primary" id="nosotros-btn-contacto">
+              Hablar con un Asesor
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA FINAL
+       ============================================================ -->
+  <section class="cta-final" id="contacto" aria-labelledby="cta-title">
+    <div class="cta-bg">
+      <div class="cta-bg-ring cta-bg-ring-1"></div>
+      <div class="cta-bg-ring cta-bg-ring-2"></div>
+      <div class="cta-bg-ring cta-bg-ring-3"></div>
+    </div>
+    <div class="particles-container" id="particles-cta"></div>
+
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="section-label" style="justify-content: center;">¿Listo para empezar?</span>
+        <h2 class="cta-title" id="cta-title">
+          Transforma tu cuerpo<br />
+          <span class="gradient-text">desde hoy</span>
+        </h2>
+        <p class="cta-subtitle">
+          Únete a más de 10,000 personas que ya confían en Tenutre para alcanzar sus metas de salud y rendimiento. Tu transformación comienza con un solo paso.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="mailto:hola@tenutre.com" class="btn-gold" id="cta-btn-explorar">
+            🛒 Explorar Catálogo
+          </a>
+          <a href="https://wa.me/573000000000" class="btn-secondary" id="cta-btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            💬 WhatsApp Asesor
+          </a>
+        </div>
+
+        <div class="cta-trust">
+          <div class="trust-item">
+            <span>✓</span>
+            <span>Envío gratis +$150k</span>
+          </div>
+          <div class="trust-item">
+            <span>✓</span>
+            <span>Garantía 30 días</span>
+          </div>
+          <div class="trust-item">
+            <span>✓</span>
+            <span>Pago seguro</span>
+          </div>
+          <div class="trust-item">
+            <span>✓</span>
+            <span>Asesoría gratuita</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#inicio" class="navbar-logo" aria-label="Tenutre - Inicio">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                <path d="M8 12c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4"/>
+                <path d="M12 8v8M8 12h8"/>
+              </svg>
+            </div>
+            <span class="logo-text">Ten<span>utre</span></span>
+          </a>
+          <p class="footer-brand-desc">
+            Nutre tu cuerpo, transforma tu rendimiento. Suplementos deportivos y de bienestar premium para personas que buscan mejorar su salud y calidad de vida.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" id="footer-instagram" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" id="footer-facebook" aria-label="Facebook">👤</a>
+            <a href="#" class="social-link" id="footer-tiktok" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" id="footer-youtube" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+
+        <!-- Productos -->
+        <div>
+          <h3 class="footer-col-title">Productos</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="#servicios" class="footer-link" id="footer-proteinas">Proteínas</a></li>
+            <li><a href="#servicios" class="footer-link" id="footer-vitaminas">Vitaminas & Minerales</a></li>
+            <li><a href="#servicios" class="footer-link" id="footer-quemadores">Quemadores de Grasa</a></li>
+            <li><a href="#servicios" class="footer-link" id="footer-preentrenamiento">Pre-Entreno</a></li>
+            <li><a href="#servicios" class="footer-link" id="footer-bcaa">BCAAs & Aminoácidos</a></li>
+            <li><a href="#servicios" class="footer-link" id="footer-wellness">Wellness Natural</a></li>
+          </ul>
+        </div>
+
+        <!-- Empresa -->
+        <div>
+          <h3 class="footer-col-title">Empresa</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="#nosotros" class="footer-link" id="footer-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#resultados" class="footer-link" id="footer-resultados">Resultados</a></li>
+            <li><a href="#testimonios" class="footer-link" id="footer-testimonios">Testimonios</a></li>
+            <li><a href="#" class="footer-link" id="footer-blog">Blog</a></li>
+            <li><a href="#" class="footer-link" id="footer-afiliados">Programa Afiliados</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div>
+          <h3 class="footer-col-title">Contacto</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="mailto:hola@tenutre.com" class="footer-link" id="footer-email">hola@tenutre.com</a></li>
+            <li><a href="https://wa.me/573000000000" class="footer-link" id="footer-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li><a href="#" class="footer-link" id="footer-envios">Política de Envíos</a></li>
+            <li><a href="#" class="footer-link" id="footer-devoluciones">Devoluciones</a></li>
+            <li><a href="#" class="footer-link" id="footer-faq">Preguntas Frecuentes</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2026 Tenutre. Todos los derechos reservados. 🌿
+        </p>
+        <div class="footer-legal">
+          <a href="#" id="footer-privacidad">Privacidad</a>
+          <a href="#" id="footer-terminos">Términos</a>
+          <a href="#" id="footer-cookies">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
